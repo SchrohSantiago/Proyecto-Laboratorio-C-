@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.labVuelto = new System.Windows.Forms.Label();
             this.btnCalcularVuelto = new System.Windows.Forms.Button();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -104,11 +105,22 @@
             this.btnCalcularVuelto.UseVisualStyleBackColor = true;
             this.btnCalcularVuelto.Click += new System.EventHandler(this.btnCalcularVuelto_Click);
             // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Location = new System.Drawing.Point(616, 37);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCerrar.TabIndex = 9;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnCalcularVuelto);
             this.Controls.Add(this.labVuelto);
             this.Controls.Add(this.label3);
@@ -134,6 +146,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label labVuelto;
         private System.Windows.Forms.Button btnCalcularVuelto;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }
 

@@ -26,5 +26,10 @@ namespace Ejercicio5
 
             labVuelto.Text = $"El vuelto para {nombre} es: $ {vueltoTotal}";
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

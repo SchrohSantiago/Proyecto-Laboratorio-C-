@@ -44,11 +44,12 @@
             this.labResultado = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSumarHoras
             // 
-            this.btnSumarHoras.Location = new System.Drawing.Point(347, 153);
+            this.btnSumarHoras.Location = new System.Drawing.Point(349, 225);
             this.btnSumarHoras.Name = "btnSumarHoras";
             this.btnSumarHoras.Size = new System.Drawing.Size(105, 23);
             this.btnSumarHoras.TabIndex = 0;
@@ -58,21 +59,21 @@
             // 
             // txtHoraA
             // 
-            this.txtHoraA.Location = new System.Drawing.Point(21, 77);
+            this.txtHoraA.Location = new System.Drawing.Point(23, 149);
             this.txtHoraA.Name = "txtHoraA";
             this.txtHoraA.Size = new System.Drawing.Size(100, 20);
             this.txtHoraA.TabIndex = 1;
             // 
             // txtMinutoA
             // 
-            this.txtMinutoA.Location = new System.Drawing.Point(140, 77);
+            this.txtMinutoA.Location = new System.Drawing.Point(142, 149);
             this.txtMinutoA.Name = "txtMinutoA";
             this.txtMinutoA.Size = new System.Drawing.Size(100, 20);
             this.txtMinutoA.TabIndex = 2;
             // 
             // txtSegundoA
             // 
-            this.txtSegundoA.Location = new System.Drawing.Point(263, 77);
+            this.txtSegundoA.Location = new System.Drawing.Point(265, 149);
             this.txtSegundoA.Name = "txtSegundoA";
             this.txtSegundoA.Size = new System.Drawing.Size(100, 20);
             this.txtSegundoA.TabIndex = 3;
@@ -80,21 +81,21 @@
             // 
             // txtSegundoB
             // 
-            this.txtSegundoB.Location = new System.Drawing.Point(674, 77);
+            this.txtSegundoB.Location = new System.Drawing.Point(676, 149);
             this.txtSegundoB.Name = "txtSegundoB";
             this.txtSegundoB.Size = new System.Drawing.Size(100, 20);
             this.txtSegundoB.TabIndex = 4;
             // 
             // txtMinutoB
             // 
-            this.txtMinutoB.Location = new System.Drawing.Point(555, 77);
+            this.txtMinutoB.Location = new System.Drawing.Point(557, 149);
             this.txtMinutoB.Name = "txtMinutoB";
             this.txtMinutoB.Size = new System.Drawing.Size(100, 20);
             this.txtMinutoB.TabIndex = 5;
             // 
             // txtHoraB
             // 
-            this.txtHoraB.Location = new System.Drawing.Point(436, 77);
+            this.txtHoraB.Location = new System.Drawing.Point(438, 149);
             this.txtHoraB.Name = "txtHoraB";
             this.txtHoraB.Size = new System.Drawing.Size(100, 20);
             this.txtHoraB.TabIndex = 6;
@@ -102,7 +103,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 111);
+            this.label1.Location = new System.Drawing.Point(53, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 13);
             this.label1.TabIndex = 7;
@@ -111,7 +112,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(169, 111);
+            this.label2.Location = new System.Drawing.Point(171, 183);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 8;
@@ -121,7 +122,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(286, 111);
+            this.label3.Location = new System.Drawing.Point(288, 183);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 9;
@@ -130,7 +131,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(470, 111);
+            this.label4.Location = new System.Drawing.Point(472, 183);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(30, 13);
             this.label4.TabIndex = 10;
@@ -139,7 +140,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(586, 111);
+            this.label5.Location = new System.Drawing.Point(588, 183);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 11;
@@ -149,7 +150,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(697, 111);
+            this.label6.Location = new System.Drawing.Point(699, 183);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 13);
             this.label6.TabIndex = 12;
@@ -158,7 +159,7 @@
             // labResultado
             // 
             this.labResultado.AutoSize = true;
-            this.labResultado.Location = new System.Drawing.Point(382, 202);
+            this.labResultado.Location = new System.Drawing.Point(384, 274);
             this.labResultado.Name = "labResultado";
             this.labResultado.Size = new System.Drawing.Size(0, 13);
             this.labResultado.TabIndex = 13;
@@ -167,7 +168,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label9.Location = new System.Drawing.Point(572, 36);
+            this.label9.Location = new System.Drawing.Point(574, 108);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(58, 13);
             this.label9.TabIndex = 15;
@@ -177,17 +178,28 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label10.Location = new System.Drawing.Point(169, 36);
+            this.label10.Location = new System.Drawing.Point(171, 108);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(58, 13);
             this.label10.TabIndex = 16;
             this.label10.Text = "TIEMPO A";
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Location = new System.Drawing.Point(702, 22);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCerrar.TabIndex = 17;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.labResultado);
@@ -229,6 +241,7 @@
         private System.Windows.Forms.Label labResultado;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }
 

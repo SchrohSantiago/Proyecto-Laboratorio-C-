@@ -40,11 +40,10 @@
             // labCantidadArena
             // 
             this.labCantidadArena.AutoSize = true;
-            this.labCantidadArena.Location = new System.Drawing.Point(373, 250);
+            this.labCantidadArena.Location = new System.Drawing.Point(313, 256);
             this.labCantidadArena.Name = "labCantidadArena";
-            this.labCantidadArena.Size = new System.Drawing.Size(35, 13);
+            this.labCantidadArena.Size = new System.Drawing.Size(0, 13);
             this.labCantidadArena.TabIndex = 2;
-            this.labCantidadArena.Text = "label1";
             // 
             // txtAltura
             // 
@@ -90,7 +89,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(560, 72);
+            this.btnCerrar.Location = new System.Drawing.Point(574, 78);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 23);
             this.btnCerrar.TabIndex = 8;

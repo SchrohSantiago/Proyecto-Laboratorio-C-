@@ -33,5 +33,10 @@ namespace Ejercicio4
         {
 
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

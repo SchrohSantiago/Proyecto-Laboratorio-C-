@@ -43,5 +43,10 @@ namespace Ejercicio6
             txtCantidadDePersonas.Text = cantidadInicial.ToString();
 
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

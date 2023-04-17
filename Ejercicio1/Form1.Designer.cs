@@ -51,7 +51,7 @@
             // 
             // txtRadio
             // 
-            this.txtRadio.Location = new System.Drawing.Point(299, 51);
+            this.txtRadio.Location = new System.Drawing.Point(290, 51);
             this.txtRadio.Name = "txtRadio";
             this.txtRadio.Size = new System.Drawing.Size(100, 20);
             this.txtRadio.TabIndex = 1;

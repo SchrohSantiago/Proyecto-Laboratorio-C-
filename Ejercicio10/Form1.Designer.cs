@@ -40,46 +40,47 @@
             this.lab0 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.ad = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtDiasTrabajados
             // 
-            this.txtDiasTrabajados.Location = new System.Drawing.Point(428, 118);
+            this.txtDiasTrabajados.Location = new System.Drawing.Point(436, 199);
             this.txtDiasTrabajados.Name = "txtDiasTrabajados";
             this.txtDiasTrabajados.Size = new System.Drawing.Size(100, 20);
             this.txtDiasTrabajados.TabIndex = 0;
             // 
             // txtHorasDiarias
             // 
-            this.txtHorasDiarias.Location = new System.Drawing.Point(237, 118);
+            this.txtHorasDiarias.Location = new System.Drawing.Point(245, 199);
             this.txtHorasDiarias.Name = "txtHorasDiarias";
             this.txtHorasDiarias.Size = new System.Drawing.Size(100, 20);
             this.txtHorasDiarias.TabIndex = 1;
             // 
             // txtTarifaHoraria
             // 
-            this.txtTarifaHoraria.Location = new System.Drawing.Point(497, 36);
+            this.txtTarifaHoraria.Location = new System.Drawing.Point(505, 117);
             this.txtTarifaHoraria.Name = "txtTarifaHoraria";
             this.txtTarifaHoraria.Size = new System.Drawing.Size(100, 20);
             this.txtTarifaHoraria.TabIndex = 2;
             // 
             // txtYear
             // 
-            this.txtYear.Location = new System.Drawing.Point(321, 36);
+            this.txtYear.Location = new System.Drawing.Point(329, 117);
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(107, 20);
             this.txtYear.TabIndex = 3;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(157, 36);
+            this.txtName.Location = new System.Drawing.Point(165, 117);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
             this.txtName.TabIndex = 4;
             // 
             // btnCalcularSalario
             // 
-            this.btnCalcularSalario.Location = new System.Drawing.Point(336, 185);
+            this.btnCalcularSalario.Location = new System.Drawing.Point(329, 268);
             this.btnCalcularSalario.Name = "btnCalcularSalario";
             this.btnCalcularSalario.Size = new System.Drawing.Size(113, 23);
             this.btnCalcularSalario.TabIndex = 5;
@@ -90,7 +91,7 @@
             // lab7
             // 
             this.lab7.AutoSize = true;
-            this.lab7.Location = new System.Drawing.Point(510, 59);
+            this.lab7.Location = new System.Drawing.Point(518, 140);
             this.lab7.Name = "lab7";
             this.lab7.Size = new System.Drawing.Size(71, 13);
             this.lab7.TabIndex = 6;
@@ -99,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(182, 59);
+            this.label2.Location = new System.Drawing.Point(190, 140);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
@@ -108,16 +109,15 @@
             // labSalario
             // 
             this.labSalario.AutoSize = true;
-            this.labSalario.Location = new System.Drawing.Point(357, 222);
+            this.labSalario.Location = new System.Drawing.Point(364, 315);
             this.labSalario.Name = "labSalario";
-            this.labSalario.Size = new System.Drawing.Size(35, 13);
+            this.labSalario.Size = new System.Drawing.Size(0, 13);
             this.labSalario.TabIndex = 8;
-            this.labSalario.Text = "label3";
             // 
             // lab0
             // 
             this.lab0.AutoSize = true;
-            this.lab0.Location = new System.Drawing.Point(415, 141);
+            this.lab0.Location = new System.Drawing.Point(423, 222);
             this.lab0.Name = "lab0";
             this.lab0.Size = new System.Drawing.Size(128, 13);
             this.lab0.TabIndex = 9;
@@ -126,7 +126,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(333, 59);
+            this.label1.Location = new System.Drawing.Point(341, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 13);
             this.label1.TabIndex = 10;
@@ -135,17 +135,28 @@
             // ad
             // 
             this.ad.AutoSize = true;
-            this.ad.Location = new System.Drawing.Point(251, 141);
+            this.ad.Location = new System.Drawing.Point(259, 222);
             this.ad.Name = "ad";
             this.ad.Size = new System.Drawing.Size(70, 13);
             this.ad.TabIndex = 11;
             this.ad.Text = "Horas Diarias";
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Location = new System.Drawing.Point(612, 35);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(82, 41);
+            this.btnCerrar.TabIndex = 12;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.ad);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lab0);
@@ -179,6 +190,7 @@
         private System.Windows.Forms.Label lab0;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label ad;
+        private System.Windows.Forms.Button btnCerrar;
     }
 }
 

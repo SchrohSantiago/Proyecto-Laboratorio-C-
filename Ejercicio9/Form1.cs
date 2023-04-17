@@ -57,5 +57,10 @@ namespace Ejercicio9
             labResultado.Text = $"{sumaHoras}:{sumaMinutos}:{sumaSegundos}";
 
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
